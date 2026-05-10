@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "HHI Privacy Operations"
+message: "If you use this governance artifact system, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Hollow House Institute"
+    given-names: "HHI"
+orcid: "https://orcid.org/0009-0009-4806-1949"
+repository-code: "https://github.com/Hollow-house-institute/HHI_Privacy_Operations"
+url: "https://github.com/Hollow-house-institute/HHI_Privacy_Operations"
+license: "Apache-2.0"
+version: "v0.1.0"
+date-released: "2026-05-09"
