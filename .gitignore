@@ -1,6 +1,5 @@
 *.zip
 *.tar.gz
-*.sha256
 audit_bundle_*
 runtime/
 exports/
