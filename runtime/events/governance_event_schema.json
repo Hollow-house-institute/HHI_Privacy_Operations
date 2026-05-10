@@ -1,0 +1,13 @@
+{
+  "event_id": "",
+  "timestamp": "",
+  "actor": "",
+  "system": "",
+  "decision_boundary": "",
+  "action": "",
+  "risk_level": "",
+  "escalation": false,
+  "stop_authority": false,
+  "evidence_reference": "",
+  "outcome": ""
+}
