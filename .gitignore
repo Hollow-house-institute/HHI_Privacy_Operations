@@ -2,5 +2,4 @@
 *.tar.gz
 audit_bundle_*
 runtime/
-exports/
 snapshots/
