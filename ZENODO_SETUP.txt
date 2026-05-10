@@ -1,0 +1,6 @@
+
+Zenodo setup:
+1. Login: https://zenodo.org
+2. GitHub tab -> enable HHI_Privacy_Operations
+3. Click Sync
+4. Create new release/tag after sync
