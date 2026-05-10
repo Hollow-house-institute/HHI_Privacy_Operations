@@ -2,3 +2,9 @@
 *.tar.gz
 audit_bundle_*
 snapshots/
+
+*.pid
+__pycache__/
+*.pyc
+runtime/logs/*.pid
+logs/*.pid
