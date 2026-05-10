@@ -1,0 +1,29 @@
+name: governance-runtime-check
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  runtime-validation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify governance directories
+        run: |
+          test -d runtime/events
+          test -d runtime/logs
+          test -d runtime/telemetry
+          test -d runtime/replay
+          test -d runtime/assurance
+
+      - name: Verify governance artifacts
+        run: |
+          test -f runtime/events/governance_event_schema.json
+          test -f runtime/api/governance_status.json
+          test -f runtime/telemetry/telemetry_event_example.json
+
+      - name: Verify checksum continuity
+        run: sha256sum -c CANONICAL_CHECKSUMS.sha256
