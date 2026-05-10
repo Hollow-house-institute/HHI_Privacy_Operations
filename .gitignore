@@ -1,5 +1,4 @@
 *.zip
 *.tar.gz
 audit_bundle_*
-runtime/
 snapshots/
